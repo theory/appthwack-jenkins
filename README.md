@@ -40,7 +40,7 @@ Usage
     *  a.) Navigate to your Jenkins project of choice and select *Configure* from the menu.
     *  b.) Click on the *Add post-build action* button and select *Run Tests on AppThwack*.
     *  c.) Select your AppThwack project and devicepool from the respective dropdowns.
-    *  d.) Enter file pattern for finding your Application build artifact.
+    *  d.) Enter file pattern for finding your Application build artifact. Make sure iOS build artifacts are built with the "Pack application and build .ipa?" settings checkbox checked in the relevant Xcode build steps.
     *  e.) Select the test type you wish to use and configure it as necessary.
     *  f.) Once you're ready, hit *Save*.
 
